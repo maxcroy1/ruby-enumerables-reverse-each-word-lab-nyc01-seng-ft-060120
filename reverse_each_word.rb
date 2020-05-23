@@ -2,9 +2,9 @@ require 'pry'
 
 def reverse_each_word(string)
   words = string.split
-  output = ""
+  output = []
   words.each do |index|
-    output = output + "#{index.reverse} "
+    output << index.reverse
   end
-  output
+  output.join(" ")
 end
