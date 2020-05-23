@@ -5,5 +5,4 @@ def reverse_each_word(string)
   words.each do |index|
     index.reverse 
   end
-  binding.pry
 end
