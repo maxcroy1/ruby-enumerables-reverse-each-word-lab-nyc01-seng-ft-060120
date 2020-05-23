@@ -5,6 +5,7 @@ def reverse_each_word(string)
   output = ""
   words.each do |index|
     output = output + index.reverse 
+    binding.pry
   end
   puts output
 end
